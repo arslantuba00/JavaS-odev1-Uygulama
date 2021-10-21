@@ -16,3 +16,5 @@ function save(puan=10,ogrenci) {
 save(undefined,student)
 
 
+
+
