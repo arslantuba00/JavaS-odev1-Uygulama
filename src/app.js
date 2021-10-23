@@ -57,10 +57,3 @@ console.log(s,l,m,n)//let g =[1,2,3,[9,"ww"]], let [s,l,m,...n]= g ve console.lo
 let sayilar = [48,99,32,[5,66]]
 let [t,f,h,[y,z]] = sayilar
 console.log(t,f,h,y,z)
-
-
-
-
-
-
-
