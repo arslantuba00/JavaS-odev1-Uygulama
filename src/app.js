@@ -21,6 +21,7 @@ let students =["Tuba ARSLAN","Fırat YANIK","Tuna YANIK"]
 let students2 = [student,{id:2,name:"Fırat"},{id:3,name:"Tuna"},"Ankara",{city:"İzmir"}]
 //console.log(students2)
 
+//spread
 let points = [1,2,3,4,5,22,32,453,44,67,876]
 console.log(...points)
 console.log("maximum değer: " + Math.max(...points))
@@ -44,6 +45,18 @@ console.log(category["name1"])//alternatif yazım
 console.log("id: " + id)
 console.log("Kategori: " + name1)
 
+let g =[1,2,3,...[9,"ww"]]
+let [s,l,m,n]= g //let g =[1,2,3,[9,"ww"]], let [s,l,m,...n]= g ve console.log(s,l,m,n)
+                    // verince 1 2 3 (1) [Array(2)] bu şekilde
+                    //çıktı veriyor.
+console.log(s,l,m,n)//let g =[1,2,3,[9,"ww"]], let [s,l,m,...n]= g ve console.log(s,l,m,...n)
+                      //verince 1 2 3 (2) [9, 'ww'] bu şekilde
+                     //çıktı veriyor.
+// let g =[1,2,3,...[9,"ww"]] verince 1 2 3 9 çıktı bu şekilde oluyor.
+
+let sayilar = [48,99,32,[5,66]]
+let [t,f,h,[y,z]] = sayilar
+console.log(t,f,h,y,z)
 
 
 
